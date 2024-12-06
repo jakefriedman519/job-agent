@@ -1,0 +1,8 @@
+# Trivial Benchmark Problem
+# Test case: Recommend job titles (general, not specific listings)
+# This test case checks if the agent can successfully return text suggesting job roles based on user experience.
+# The agent should be able to return a list of job roles when prompted with a user's experience and interests.
+# The agent should not use any tool to generate the response.
+
+- prompt: 'I have had software engineering and machine learning jobs where I did java and python. I am interested in programming. What kinds of jobs would you recommend?'
+  expected_type: text

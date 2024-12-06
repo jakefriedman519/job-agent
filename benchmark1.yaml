@@ -1,0 +1,8 @@
+# Trivial Benchmark Problem
+# Test case: Describe job roles
+# This test case checks if the agent can successfully return text describing a job role.
+# The agent should be able to return a description of a job role when prompted with a job title.
+# The agent should not use any tool to generate the response.
+
+- prompt: 'What does a software engineer 1 do?'
+  expected_type: text

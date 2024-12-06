@@ -1,0 +1,10 @@
+# Complex Benchmark Problem
+# Test case: Multi-step job search and follow-up
+# This test case checks if the agent can perform a multi-step workflow to search for jobs, and then generate a cover letter.
+# The agent performs a multi-step workflow: searching jobs, and generating a cover letter based on the job description.
+
+- prompt: 'Find all jobs requiring cloud computing'
+  expected_type: 'find-jobs'
+  expected_keywords: ['cloud']
+- prompt: 'Draft a cover letter for the first job.'
+  expected_type: 'text'

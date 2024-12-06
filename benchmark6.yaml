@@ -1,0 +1,8 @@
+# Moderate Benchmark Problem
+# Test case: Filter jobs by multiple criteria
+# This test case filters jobs by multiple criteria such as description and skills
+# The agent retrieves all jobs marked as "remote" and mentions "React.js."
+
+- prompt: 'Find remote jobs requiring "React.js" experience.'
+  expected_type: 'find-jobs'
+  expected_keywords: ['react', 'react.js', 'reactjs', 'remote']

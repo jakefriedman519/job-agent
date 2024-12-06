@@ -1,0 +1,8 @@
+# Moderate Benchmark Problem
+# Test case: Sort jobs by date posted
+# This test case checks if the agent can sort job listings by date posted.
+# The agent sorts all "Software Engineer" postings by date and returns the 10 latest.
+
+- prompt: 'Show the 10 most recently posted jobs with the title "Software Engineer."'
+  expected_type: 'find-jobs'
+  expected_keywords: ['software engineer']

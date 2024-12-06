@@ -1,0 +1,8 @@
+# Moderate Benchmark Problem
+# Test case: Find jobs within a salary range
+# This test case checks if the agent can find job listings within a specified salary range.
+# The agent retrieves all jobs mentioning "Machine Learning" and with salary data matching the specified range.
+
+- prompt: 'Show jobs with salaries between $100,000 and $120,000 per year requiring "Machine Learning" skills.'
+  expected_type: 'find-jobs'
+  expected_keywords: ['100,000', '120,000', '100000', '120000']

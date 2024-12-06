@@ -1,0 +1,8 @@
+# Complex Benchmark Problem
+# Test case: Create a personalized job recommendation (from specific job listings in the database)
+# This test case checks if the agent can create a personalized job recommendation based on the user’s resume and preferences.
+# The agent analyzes the provided resume, matches jobs to the user’s skills and preferences, and ranks them based on relevance.
+
+- prompt: 'Find jobs requiring cybersecurity'
+  expected_type: 'find-jobs'
+  expected_keywords: ['security', 'cybersecurity']

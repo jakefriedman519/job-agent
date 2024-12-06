@@ -1,0 +1,8 @@
+# Easy Benchmark Problem
+# Test case: Find jobs by location
+# This test case checks if the agent can successfully return a list of job listings based on a location.
+# The agent should be able to return a list of job listings when prompted with a location.
+
+- prompt: 'List jobs in San Francisco.'
+  expected_type: 'find-jobs'
+  expected_keywords: ['san francisco']

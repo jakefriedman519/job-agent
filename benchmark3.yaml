@@ -1,0 +1,8 @@
+# Easy Benchmark Problem
+# Test case: Find jobs by name
+# This test case checks if the agent can successfully return a list of job listings based on a job title.
+# The agent should be able to return a list of job listings when prompted with a job title.
+
+- prompt: 'List jobs with the title "Software Engineer".'
+  expected_type: 'find-jobs'
+  expected_keywords: ["software engineer"]

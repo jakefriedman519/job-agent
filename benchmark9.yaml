@@ -1,0 +1,8 @@
+# Moderate Benchmark Problem
+# Test case: Search for jobs with synonyms
+# This test case checks if the agent can find job listings using synonyms of the job title.
+# The agent maps synonyms and related terms (e.g., "JavaScript" → "Node.js," "TypeScript") and retrieves matching jobs.
+
+- prompt: 'Find jobs requiring cloud computing skills'
+  expected_type: 'find-jobs'
+  expected_keywords: ['cloud']

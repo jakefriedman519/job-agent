@@ -1,0 +1,7 @@
+# Unsolvable Benchmark Problem
+# Test case: Explain hiring preferences from data patterns
+# This test case checks if the agent can identify and explain patterns in required skills from job postings.
+# The agent performs statistical analysis of the database, identifying trends in required skills, but may struggle to generate nuanced explanations due to the complexity of interpreting hiring behaviors.
+
+- prompt: 'Based on job postings for "Data Analyst," identify and explain patterns in required skills (e.g., "SQL" is more common than "Python").'
+  expected_type: text

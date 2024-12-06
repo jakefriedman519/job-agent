@@ -1,0 +1,7 @@
+# Unsolvable Benchmark Problem
+# Test case: Detect and fix conflicting requirements in a job post
+# This test case checks if the agent can identify and resolve conflicting requirements in a job description.
+# The agent flags inconsistencies in job descriptions. This is challenging as detecting nuanced contradictions requires deeper contextual understanding.
+
+- prompt: 'Identify contradictions in a single job post (e.g., "3 years of experience required" for an entry-level role).'
+  expected_type: text
