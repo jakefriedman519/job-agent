@@ -1,0 +1,8 @@
+# Apply to a job (Multi-turn)
+# Retrieve jobs, then apply to the n-th job
+- prompt: "Find some software engineering jobs"
+  expected_type: "find-jobs"
+  expected_keywords: ['software', 'engineer']
+- prompt: "Apply to the third one"
+  expected_type: "apply-to-job"
+  expected_result: 68

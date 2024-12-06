@@ -1,0 +1,4 @@
+# Test case: Apply to a job based on a given job ID
+- prompt: "Apply to job ID 2"
+  expected_type: "apply-to-job"
+  expected_result: 2
