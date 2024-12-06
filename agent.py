@@ -315,7 +315,7 @@ def eval_agent(benchmark_file: str) -> EvaluationResult:
 
 
 def eval_all_benchmarks() -> float:
-    all_benchmarks = [str(p) for p in Path(".").glob("*.yaml")]  # Load all YAML benchmark files
+    all_benchmarks = [str(p) for p in Path("./benchmarks").glob("*.yaml")]  # Load all YAML benchmark files
     scores = []
     for benchmark_file in all_benchmarks:
         print(f"Running benchmark: {benchmark_file}")
